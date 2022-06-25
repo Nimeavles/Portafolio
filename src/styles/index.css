@@ -1,3 +1,93 @@
 .title {
-    font-family: "Staatliches", serif;
+    font-family: "Staatliches";
+    font-style: italic;
+    color: #cb7584;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skills {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    background: #0f1114;
+}
+
+.route {
+    font-family: 'Kdam Thmor Pro';
+    color: #cb7584;
+    transition: all 400ms;
+}
+
+li:hover {
+    transform: scale(1.1,1.1);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home > article {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    background: url('../assets/home.jpg') no-repeat center top;;
+
+}
+
+.home-title {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Titan One', cursive;
+    color: #cb7584;
+    text-shadow: 7px 7px 5px #6c3c44;
+    font-style: italic;
+}
+
+.home-skill {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Titan One', cursive;
+    color: #cb7584;
+    text-shadow: 7px 7px 5px #6c3c44;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links-btn {
+    background: none;
+    border: solid 3px #fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    transition: all 400ms;
+}
+
+.links-btn:hover {
+    transform: scale(1.1,1.1);
+    border: 3px #cb7584 solid;
+}
+
+.span-text {
+    margin-left: 15px;
+    font-size: 45px;
+    font-family: 'Kdam Thmor Pro';    
+    color: #cb7584;
+
 }

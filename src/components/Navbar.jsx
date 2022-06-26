@@ -3,7 +3,7 @@ const MyNav = () => {
   return (
     <nav className="d-flex fixed-top navbar navbar-expand-lg text-light">
       <div className="container">
-        <h1 className="title mt-2">Pablo Rodríguez</h1>
+        <a href="#"><h1 className="title mt-2">Pablo Rodríguez</h1></a>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,13 +18,13 @@ const MyNav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="ms-auto skills navbar-nav">
             <li className="nav-item">
-                <a className="route">¿Quién Soy?</a>
+                <a href="#about_me" className="route">¿Quién Soy?</a>
+            </li>
+            <li className="nav-item">
+                <a href="#skills"className="route">Habilididades</a>
             </li>
             <li className="nav-item">
                 <a className="route">Mis Proyectos</a>
-            </li>
-            <li className="nav-item">
-                <a className="route">Habilididades</a>
             </li>
             <li className="nav-item">
                 <a className="route">¿Como Contactarme?</a>

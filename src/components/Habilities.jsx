@@ -11,6 +11,8 @@ import react from "../assets/skills/react.png";
 import python from "../assets/skills/python.png";
 import vscode from "../assets/skills/vscode.png";
 import express from "../assets/skills/express.png";
+import typescript from "../assets/skills/typescript.png";
+import mysql from "../assets/skills/mysql.png";
 import Soft_Skills from "./Soft_Skills";
 import Lenguajes from "./Lenguajes";
 
@@ -20,11 +22,13 @@ const Habilities = () => {
       <article className="container">
         <hr />
         <h1 className="about-title">Habilidades</h1>
-        <div className="container mt-5">
+        <div className="container mt-5 len-habilities">
           <div className="skills-tec text-center">
             <div className="skills-row row1">
               <img className="skill-img" src={Js} alt="Js" />
               <span className="paragrahp skill-name">JavaScript</span>
+              <img className="skill-img" src={typescript} alt="Js" />
+              <span className="paragrahp skill-name">Typescript</span>
               <img className="skill-img" src={flask} alt="Js" />
               <span className="paragrahp skill-name">Flask</span>
               <img className="skill-img" src={node} alt="Js" />
@@ -45,14 +49,18 @@ const Habilities = () => {
               <span className="paragrahp skill-name">Reactjs</span>
               <img className="skill-img" src={python} alt="Js" />
               <span className="paragrahp skill-name">Python</span>
+              <img className="skill-img" src={mysql} alt="Js" />
+              <span className="paragrahp skill-name">Mysql</span>
               <img className="skill-img" src={vscode} alt="Js" />
               <span className="paragrahp skill-name">Vscode</span>
               <img className="skill-img" src={github} alt="Js" />
               <span className="paragrahp skill-name">Github</span>
             </div>
           </div>
-          <Soft_Skills />
           <Lenguajes />
+        </div>
+        <div className="container">
+          <Soft_Skills />
         </div>
       </article>
     </section>

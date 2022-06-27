@@ -2,6 +2,7 @@ import About_Me from "./components/About_Me"
 import Home from "./components/Home"
 import MyNav  from "./components/Navbar"
 import Habilities from "./components/Habilities"
+import Proyectos from "./components/Proyectos"
 
 function App() {
 

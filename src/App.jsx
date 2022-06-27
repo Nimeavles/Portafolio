@@ -13,6 +13,7 @@ function App() {
         <Home />
         <About_Me />
         <Habilities />
+        <Proyectos />
       </main>
     </div>
   )

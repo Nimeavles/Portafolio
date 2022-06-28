@@ -24,10 +24,10 @@ const MyNav = () => {
                 <a href="#skills"className="route">Habilididades</a>
             </li>
             <li className="nav-item">
-                <a className="route">Mis Proyectos</a>
+                <a className="route" href="#proyects">Mis Proyectos</a>
             </li>
             <li className="nav-item">
-                <a className="route">¿Como Contactarme?</a>
+                <a className="route" href="#contact">¿Como Contactarme?</a>
             </li>
           </ul>
         </div>

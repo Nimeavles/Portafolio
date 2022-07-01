@@ -16,7 +16,7 @@ const Home = () => {
             </button>
           </a>
           <a target="about_blank" href="https://www.linkedin.com/in/pablo-rodriguez-2042a2242/">
-            <button className="links-btn ms-5">
+            <button className="links-btn btn-link">
               <img src={Linkedin} alt="linkedin" />
               <span className="span-text">LinkdIn</span>
             </button>

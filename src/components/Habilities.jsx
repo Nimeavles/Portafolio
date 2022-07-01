@@ -22,7 +22,7 @@ const Habilities = () => {
       <article className="container">
         <hr />
         <h1 className="about-title">Habilidades</h1>
-        <div className="container mt-5 len-habilities">
+        <div className="container len-habilities">
           <div className="skills-tec text-center">
             <div className="skills-row row1">
               <img className="skill-img" src={Js} alt="Js" />

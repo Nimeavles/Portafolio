@@ -57,9 +57,13 @@ li:hover {
 }
 
 main {
-    background: url('../assets/home.jpg') no-repeat center top;
+    background: url('../assets/fondo.jpg') no-repeat center top;
     background-attachment: fixed;
+    width: 100%;
+}
 
+.btn-link {
+    margin-left: 15px;
 }
 
 .home-title {
@@ -90,6 +94,7 @@ main {
     border-radius: 60px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 20px;
     transition: all 400ms;
 }
@@ -247,6 +252,7 @@ b {
 .len-habilities {
     display: flex;
     justify-content: space-between;
+    margin-top: 2%
 }
 
 .proyectos {

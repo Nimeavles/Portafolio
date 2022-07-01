@@ -10,7 +10,7 @@ const Contact = () => {
       <article className="container ">
         <hr />
         <h1 className="about-title">¿Cómo contactarme?</h1>
-        <div className="mt-5 d-flex justify-content-around">
+        <div className="contact mt-5 d-flex justify-content-around">
           <div className="ways-to-contact">
             <p className="paragrahp">
               <big>Para Poder contactarme</big>, te dejaré diferentes medios de

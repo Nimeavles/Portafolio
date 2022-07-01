@@ -4,12 +4,13 @@ import MyNav  from "./components/Navbar"
 import Habilities from "./components/Habilities"
 import Proyectos from "./components/Proyectos"
 import Contact from "./components/Contact"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <div>
-      <MyNav />
+      <Navbar />
       <main>
         <Home />
         <About_Me />

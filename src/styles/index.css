@@ -13,13 +13,23 @@ a {
 }
 
 .skills {
-    width: 70%;
+    list-style: none;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
 }
 
-.navbar {
+.skills li{
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.nav2 {
     background: #0f1114;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .route {
@@ -95,6 +105,22 @@ main {
     font-family: 'Kdam Thmor Pro';    
     color: var(--light-pink);
 
+}
+
+.checkbtn {
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbtn-btn {
+    font-size: 30px;
+    color: #fff;
+}
+
+#check {
+    display: none;
 }
 
 .about-me {

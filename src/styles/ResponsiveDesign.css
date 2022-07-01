@@ -1,0 +1,105 @@
+/*{Laptop Design}*/
+
+@media screen and (min-width: 992px) and (max-height: 769px){
+    .about-me {
+        height: 120vh;
+    }
+
+    .skills-tec {
+        padding-right: 25px;
+    }
+
+    .lenguajes {
+        width: 35%;
+    }
+
+    .habilidades {
+        height: 130vh;
+    }
+
+    .pro-card {
+        width: 55%;
+        height: 35%;
+    }
+    
+    .proyectos {
+        height: 270vh;
+    }
+
+    .contact-me {
+        height: 100vh;
+    }
+}
+
+/*{For my laptop design}*/
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+    .about-me {
+        height: 130vh;
+    }
+
+    .habilidades {
+        height: 145vh;
+    }
+
+    .pro-card {
+        width: 45%;
+    }
+
+    .proyectos {
+        height: 300vh;
+    }
+
+    .contact-me {
+        height: 100vh;
+    }
+}
+
+/*{Landscape Tablets}*/
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .skills{
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        background: #000;
+        opacity: 0.9;
+        top: 80px;
+        display: none;
+        transition: all .5s;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills li {
+        display: none;
+    }
+
+    #check:checked ~ .skills {
+        height: 100vh;
+    }
+
+    #check:checked ~ .skills li {
+        display: block;
+    }
+
+    .skills li a {
+        font-size: 30px;
+    }
+
+    a:hover, a:active {
+        background: none;
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+

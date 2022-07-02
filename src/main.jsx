@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './styles/index.css';
 import './styles/ResponsiveDesign.css';
+import './styles/MoreResponsiveDesign.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

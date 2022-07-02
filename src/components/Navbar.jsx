@@ -23,7 +23,7 @@ const Navbar2 = () => {
                 </li>
             </ul>
             <label htmlFor="check" className='checkbtn'>
-                <img className='checkbtn-btn' src={bars} alt="icon" />
+                <i className="fa-solid fa-bars icon"></i>
             </label>
         </nav>
     )

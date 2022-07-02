@@ -231,3 +231,119 @@
         margin-top: 3.5rem;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .home-title {
+        font-size: 100px;
+    }
+
+    .home-skill {
+        font-size: 60px;
+    }
+
+    .about-title {
+        font-size: 80px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-rows: 25% 1fr;
+        grid-row-gap: 50px;
+    }
+
+    .personal-img {
+        margin: auto;
+    }
+
+    .texts {
+        margin: auto;
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .about-me {
+        height: 160vh;
+    }
+
+    .habilidades {
+        height: 185vh;
+    }
+
+    .habilidades h1 {
+        font-size: 80px;
+    }
+    
+    .len-habilities {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .skills-tec {
+        width: 100%;
+    }
+
+    .row1 {
+        grid-row-gap: 20px;
+    }
+    
+    .row2 {
+        grid-row-gap: 20px;
+    }
+    
+    .skills-row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+
+    .lenguajes {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .soft-skills {
+        width: 100%;
+    }
+
+    .proyectos {
+        height: 280vh;
+    }
+
+    .pro-card {
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .links-btn-pro {
+        margin: auto;
+    }
+
+    .contact-me {
+        height: 130vh;
+    }
+
+    .contact-me h1 {
+        font-size: 60px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .ways-to-contact {
+        width: 100%;
+    }
+
+    .gmail {
+        font-size: 30px;
+    }
+
+    .contacts span {
+        font-size: 30px;
+    }
+
+    .location {
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+}

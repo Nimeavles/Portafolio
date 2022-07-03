@@ -106,94 +106,44 @@
 }
 
 @media screen and (max-width: 330px) {
-    .habilidades {
-        height: 205vh;
+    .about-me {
+        height: 220vh;
+    }
+
+    .habilidades h1{
+        font-size: 40px;
+    }
+
+    .contact-me {
+        height: 180vh;
     }
 
     .contact-me h1 {
         font-size: 40px;
     }
-}
 
-@media screen and (max-width: 991px) {
-    .about-me {
-        height: 150vh;
+    .skills-tec {
+        padding-left: 20px;
+    }
+
+    .row1 span, .row2 span{
+        margin-left: 20px;
     }
 
     .habilidades {
-        height: 185vh;
-    }
-
-    .habilidades h1 {
-        font-size: 80px;
-    }
-    
-    .len-habilities {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-    }
-
-    .skills-tec {
-        width: 100%;
-    }
-
-    .row1 {
-        grid-row-gap: 20px;
-    }
-    
-    .row2 {
-        grid-row-gap: 20px;
-    }
-    
-    .skills-row {
-        display: grid;
-        grid-template-columns: 25% 75%;
-    }
-
-    .lenguajes {
-        width: 100%;
-        margin-top: 30px;
-    }
-
-    .soft-skills {
-        width: 100%;
-    }
-
-    .pro-card {
-        width: 60%;
+        height: 205vh;
     }
 
     .proyectos {
-        height: 280vh;
+        height: 350vh;
     }
 
-    .contact-me {
-        height: 120vh;
+    .proyectos h1 {
+        font-size: 40px;
     }
 
-    .contact-me h1 {
-        font-size: 60px;
-    }
-
-    .contact {
-        flex-direction: column;
-    }
-
-    .ways-to-contact {
+    .pro-card {
         width: 100%;
-    }
-
-    .gmail {
-        font-size: 30px;
-    }
-
-    .contacts span {
-        font-size: 30px;
-    }
-
-    .location {
-        width: 100%;
-        margin-top: 3.5rem;
+        height: 600px;
     }
 }

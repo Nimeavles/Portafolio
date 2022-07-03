@@ -40,3 +40,41 @@
         height: 150vh;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .home-title {
+        font-size: 60px;
+    }
+
+    .habilidades h1 {
+        font-size: 60px;
+    }
+
+    .skills-tec {
+        padding-right: 20px;
+    }
+
+    .proyectos {
+        height: 300vh;
+    }
+
+    .pro-card {
+        height: 500px;
+    }
+
+    .contact-me h1 {
+        font-size: 50px;
+    }
+
+    .gmail {
+        font-size: 20px;
+    }
+
+    .contact span{
+        font-size: 20px;
+    }
+
+    .proyectos h1 {
+        font-size: 60px;
+    }
+}

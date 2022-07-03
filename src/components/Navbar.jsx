@@ -25,9 +25,6 @@ const Navbar2 = () => {
             <label htmlFor="check" className='checkbtn'>
                 <i className="fa-solid fa-bars icon"></i>
             </label>
-            {
-                alert(`${screen.width} - ${screen.height}`)
-            }
         </nav>
     )
 }

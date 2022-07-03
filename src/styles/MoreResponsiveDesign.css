@@ -78,3 +78,29 @@
         font-size: 60px;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .home-title {
+        font-size: 50px;
+    }
+
+    .about-me h1 {
+        font-size: 50px;
+    }
+
+    .row1 span {
+        margin-left: 10px;
+    }
+
+    .habilidades {
+        height: 190vh;
+    }
+
+    .pro-card {
+        height: 550px;
+    }
+
+    .proyectos {
+        height: 320vh;
+    }
+}
